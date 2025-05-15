@@ -6,12 +6,13 @@ To write a C program to implement Kruskal's Algorithm for finding minimum cost
 ## Algorithm
 1. Start
 2. Read the number of vertices n and the adjacency matrix G.
-3.Initialize the edge list elist and extract all edges from the         matrix into elist.
-4.Sort the edges in increasing order of weight.
-5.Initialize a belongs array where each vertex is initially in its own set.
-6.Process each edge, checking if the vertices belong to different       sets using find. If they do, add the edge to the spanlist and         unite the sets using union1.
+3. Initialize the edge list elist and extract all edges from the         matrix into elist.
+4. Sort the edges in increasing order of weight.
+5. Initialize a belongs array where each vertex is initially in its own set.
+6. Process each edge, checking if the vertices belong to different sets using find. If they do, add the edge to the spanlist and      unite the sets using union1.
 7. Print the edges of the minimum spanning tree along with its total cost.
-8. End
+8. end
+
    
 ## Program:
 ```
